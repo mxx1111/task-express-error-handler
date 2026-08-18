@@ -1,0 +1,11 @@
+{
+  "name": "task-express-error-handler",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test task-spec/*.test.mjs"
+  }
+}

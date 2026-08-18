@@ -1,0 +1,26 @@
+{
+  "sparepackVersion": 1,
+  "task": "Stop the Express error handler from leaking internal error text to HTTP clients",
+  "generated": {
+    "files": 3,
+    "bytes": 5745
+  },
+  "files": [
+    {
+      "path": "src/middleware/errorMiddleware.js",
+      "kind": "stripped",
+      "bytes": 347
+    },
+    {
+      "path": "src/utils/AppError.js",
+      "kind": "verbatim",
+      "bytes": 250
+    },
+    {
+      "path": "task-spec/error-handler.test.mjs",
+      "kind": "verbatim",
+      "bytes": 5148,
+      "role": "acceptance-test"
+    }
+  ]
+}
